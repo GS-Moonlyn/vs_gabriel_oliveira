@@ -36,7 +36,7 @@ public class Player extends Thread {
 	
 	public enum Resultado{
 		GANHOU(1),
-		PERDEU(-1);
+		PERDEU(0);
 		
 		private int pontos;
 		private Resultado(int pontos) {
